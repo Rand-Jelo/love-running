@@ -175,16 +175,16 @@ main {
 }
 
 #times div {
-   color: #fafafa; 
-   background-color: rgba(0, 0, 0, .6);
-   padding: 15px;
-   text-align: center;
-   /* This will not wrap on screens of less than 400px wide.
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
    Each div will expand to fill the avaliable space on its row */
-   flex-basis: 200px;
-   flex-grow: 1;
-   /* Creates a grid of meetup time dives over th background image */
-   border: 2px solid white;
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time dives over th background image */
+    border: 2px solid white;
 }
 
 #times h3 {
@@ -217,7 +217,7 @@ main {
     padding: 30px;
 }
 
-#signup-form > h2 {
+#signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -321,12 +321,12 @@ main {
         width: 100%;
     }
 
-    #benefits-physical > div,
-    #benefits-mental > div {
+    #benefits-physical>div,
+    #benefits-mental>div {
         width: 75%;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
     }
@@ -373,13 +373,14 @@ main {
 
 /* Media query for very large screens (1200px and up)*/
 @media screen and (min-width: 1200px) {
+
     /* Reasons section*/
     #benefits {
         display: flex;
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -391,11 +392,11 @@ main {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
 }
